@@ -2,6 +2,7 @@
 var pet, pet2;
 var database;
 var foodStock, food;
+var foodS;
 
 
 function preload()
@@ -35,6 +36,7 @@ function draw() {
   fill("black");
   textSize(15);
   text("Press UP to feed the pet",170,50);
+  text("Food Remaianing : "+foodS ,170,170)
   //console.log(count);
 }
 function readStock(data){
